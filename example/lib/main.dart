@@ -4,7 +4,7 @@ import 'package:progress_dialog/progress_dialog.dart';
 
 //import '../../lib/progress_dialog.dart';
 
-ProgressDialog pr;
+late ProgressDialog pr;
 
 void main() {
   runApp(MaterialApp(
@@ -122,7 +122,7 @@ class FirstScreen extends StatefulWidget {
 }
 
 class _FirstScreenState extends State<FirstScreen> {
-  ProgressDialog pr;
+  late ProgressDialog pr;
 
   @override
   Widget build(BuildContext context) {
